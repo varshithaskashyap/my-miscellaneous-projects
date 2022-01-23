@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Exercise - 02</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="maincontainer text-center mt-1 mb-1 p-2">
+    <h1 class="mb-5 text-muted">Formatter</h1>
+      <div  class="d-flex justify-content-center">
+        <div class ="container float-left w-50 mr-2 ml-5 mb-5 p-2">
+          <h3>Enter the text :</h3>
+          <form>
+              <textarea class="form-control" rows="12" name="sentence"  id='inputSentence'  required ></textarea>
+          </form><br>
+          <div class="table">
+            <h4>Instructions </h4>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">No</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Usage</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Heading1</td>
+                  <td><code># Heading1</code></td>
+
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Heading2</td>
+                  <td><code>## Heading2</code></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Heading3</td>
+                  <td><code>### Heading3</code></td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Link</td>
+                  <td><code>[Link](https://google.com/)</code></td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Bold</td>
+                  <td><code>**Bold Text**</code></td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Italic</td>
+                  <td><code>*Italic Text*</code></td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>Blockquote</td>
+                  <td><code> &gt; Quote Text </code></td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>Code</td>
+                  <td><code>`Code text`</code></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div id="result" class="output border m-5 p-2">
+          <div id="output">
+          </div>
+        </div>
+      </div>
+
+    </div>
+</body>
+
+<script src="main.js"></script>
+</html>

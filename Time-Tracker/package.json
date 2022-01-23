@@ -1,0 +1,24 @@
+{
+  "name": "time-tracker",
+  "version": "1.0.0",
+  "description": "A Time Tracker for Tasks",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "varshithakashyap",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varshithakashyap/Time-Tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/varshithakashyap/Time-Tracker/issues"
+  },
+  "homepage": "https://github.com/varshithakashyap/Time-Tracker#readme"
+}

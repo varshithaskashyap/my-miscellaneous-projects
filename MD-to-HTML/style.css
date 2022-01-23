@@ -1,0 +1,14 @@
+.output{
+    width: 50%;
+    float:right;
+    height: auto;
+    text-align: left;
+}
+
+blockquote {
+        margin: 10px;
+        padding: 10px;
+        color:gray;
+        background-color: lightgrey;
+        box-shadow: -5px 0px 0px 0px darkgray;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>time tracker</title>
+    <meta charset="UTF-8">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+
+<body class="body"  onload="OnloadFunction();">
+
+    
+
+    <div class="outer-block">
+    <div class="block" id="text">
+        <input class="input" id="input" type="text"
+            placeholder="enter your work for the day"><select id="select">
+            <option value="home">home</option>
+            <option value="work">work</option>
+            <option value="personal">personal</option>
+        </select>
+        <br><br>
+        <label  class="date" for="tododate">date:</label>
+        <input type="text" id="tododate" name="tododate" required />
+        <br>
+        <br>
+    </div>
+
+        <div class="container">
+
+                        <div class="buttons" id="button">
+                 <div id="starterClock">
+                00:00:00
+            </div>
+            <br>
+                <!-- <label id="startStop" onclick="startTimer()"> -->
+                    <!-- <input type="button" name="" class="button "  id="startStop" onclick="startTimer()" --> 
+                    <!-- <i id="startStop" class='fa fa-play button ' aria-hidden='true' onclick='startTimer()'></i> -->
+                    <i id="pause" class="fa fa-pause" aria-hidden="true" onclick='TimerOperations("pause")'></i>
+                    <i id="start" class='fa fa-play button ' aria-hidden='true' onclick='TimerOperations("start")'></i>
+                   
+                <!-- <button class="button "  id="startStop" onclick="startTimer()">start</button> -->
+                <i id="stop" class='fa fa-stop ' aria-hidden='true' onclick='TimerOperations("stop")'></i>
+                <!-- <button class=" button " id="stop" onclick="stopTimer()">Stop</button> -->
+            </div>
+            <br>
+        </div>
+       
+
+            <div id="test">
+                <table class="table">
+
+                    <tbody>
+                        <tr>
+                            <th class="th">Work-Name</th>
+                            <th class="th">Category</th>
+                            <th class="th">Time</th>
+                            
+                        </tr>
+
+                        
+
+                    </tbody>
+
+
+                </table> 
+            </div>
+        </div>
+    
+    
+    <script src='js/main.js'></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
+
